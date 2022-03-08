@@ -1,0 +1,203 @@
+.createProject .container .gray-rectangle {
+  background: #e5e5e5;
+  border-radius: 6px;
+}
+
+.createProject .container h6 {
+  font-family: "Poppins-SemiBold";
+  font-size: 19px;
+  padding: 10px 120px;
+  color: #094067;
+}
+
+.createProject .container .flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createProject .container .font-Poppins .p1 {
+  font-size: 14px;
+  color: #094067;
+  font-weight: bolder;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.createProject .container .font-Poppins hr {
+  height: 2px;
+  margin: 20px 100px;
+}
+.createProject .container .font-Poppins .input-fields {
+  position: relative;
+}
+
+.createProject .container .font-Poppins .input-fields .image {
+  position: absolute;
+  left: -30px;
+  height: 13px;
+  width: 13px;
+  top: 6px;
+}
+
+.createProject .container .font-Poppins .input-fields label {
+  color: #094067;
+  font-size: 15px;
+  font-weight: 700;
+  font-weight: bolder;
+}
+.createProject .container .font-Poppins .input-fields span {
+  color: #dc3545;
+}
+.createProject .container .font-Poppins .input-fields p {
+  font-size: 13px;
+  color: #9a9a9a;
+  margin-bottom: 5px;
+}
+
+.createProject .container .font-Poppins .input-fields textarea {
+  background-color: #f5f5f5;
+  border: 1px solid #094067;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 8px 0;
+  padding: 7px 20px;
+  resize: none;
+  width: 400px;
+  color: #094067;
+}
+.createProject .container .font-Poppins .input-fields .custom-file-upload {
+  border-radius: 45px;
+  border: 1px solid #ef4565;
+  display: inline-block;
+  width: 160px;
+  padding: 6px 12px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.createProject .container .font-Poppins .input-fields input[type="file"] {
+  display: none;
+}
+
+.createProject .container .font-Poppins .input-fields select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+.createProject .container .font-Poppins .p2 {
+  font-size: 13px;
+  color: #094067;
+}
+
+.createProject .container .font-Poppins .input-fields select {
+  background-color: #f5f5f5;
+  border: 1px solid #094067;
+  box-sizing: border-box;
+  border-radius: 36px;
+  font-weight: normal;
+  margin: 8px 0;
+  padding: 0 20px;
+  width: 400px;
+  height: 40px;
+  font-size: 14px !important;
+  color: #094067;
+}
+
+.createProject .container .font-Poppins .input-fields .p-char {
+  width: 400px;
+  text-align: end;
+}
+
+.createProject .container .font-Poppins .input-fields .imageArrow {
+  position: absolute;
+  right: 20px;
+  top: 23px;
+}
+
+.pad120 {
+  padding: 0 120px;
+}
+
+.font-Poppins {
+  font-family: "Poppins-Light";
+}
+
+.createProject .container h5 {
+  color: #094067;
+  font-family: "Poppins-Bold";
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.createProject .container .font-Poppins .buttoncss2 {
+  width: 160px;
+  height: 37px;
+  font-size: 14px;
+}
+.createProject .container .font-Poppins .buttoncss3 {
+  width: 160px;
+  height: 37px;
+  font-size: 14px;
+  margin-left: 10px;
+  background: #fff;
+  border: 1px solid #ef4565;
+  color: #ef4565;
+}
+
+.imgDiv {
+  height: 300px;
+  width: 300px;
+}
+
+.imgDiv img {
+  height: 100%;
+  width: 100%;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.project-picture {
+  border-radius: 8px;
+  border: 1px solid #094067;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.project-picture img {
+  width: 120px;
+  height: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+  .createProject .container .font-Poppins .input-fields textarea {
+    width: auto;
+  }
+  .createProject .container .font-Poppins .input-fields .p-char {
+    width: auto;
+  }
+  .createProject .container .font-Poppins .input-fields select {
+    font-size: 11px !important;
+    padding: 0 18px;
+    width: 150px;
+  }
+  .pad120 {
+    padding: 0 60px;
+  }
+  .createProject .container .font-Poppins .buttoncss3 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .createProject .container h6 {
+    padding: 10px 60px;
+    color: #094067;
+    text-align: center;
+  }
+}

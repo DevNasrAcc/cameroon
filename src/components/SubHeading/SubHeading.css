@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Poppins-Light";
+  src: local("Poppins-Light"),
+    url(../../assets/fonts/Poppins-Light.ttf) format("truetype");
+}
+
+.default-sub {
+  font-family: "Poppins-Light";
+  color: #094067;
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.content {
+  width: 450px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

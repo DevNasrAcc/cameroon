@@ -1,0 +1,94 @@
+:root {
+  --blue: #094067;
+  --red: #ef4565;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: local("Poppins-Bold"),
+    url(../../assets/fonts/Poppins-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: local("Poppins-Light"),
+    url(../../assets/fonts/Poppins-Light.ttf) format("truetype");
+}
+
+.top-header .navTitle {
+  font-family: "Poppins-Bold";
+  font-style: normal;
+  font-size: 21px;
+  line-height: 0;
+  color: var(--blue);
+  text-transform: uppercase;
+}
+
+.top-header .navTitle span {
+  color: var(--red);
+  letter-spacing: 1.8px;
+}
+
+.top-header {
+  background: transparent !important;
+  margin: 10px 0 0;
+}
+
+.top-header .nav-link {
+  font-family: "Poppins-Bold";
+  font-weight: bold;
+  font-size: 14px;
+  color: #094067 !important;
+  margin: 0px;
+  padding: 0px 10px;
+  width: max-content;
+}
+
+.top-header .line-height-1 {
+  line-height: 1;
+}
+
+.top-header .regular-btn {
+  margin: 0 20px;
+}
+
+.top-header .auth-nav {
+  width: 130px;
+}
+
+.top-header .auth-nav a {
+  text-decoration: none;
+}
+
+.top-header .auth-nav p {
+  font-family: "Poppins-Bold";
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.top-header .buttoncss {
+  height: 42px;
+  width: 180px;
+  font-size: 14px;
+}
+.top-header .flags {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.top-header .flagsDiv {
+  position: relative;
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+}
+.top-header a:active {
+  background-color: #e5e5e5;
+}
+@media only screen and (max-width: 768px) {
+  .top-header .buttoncss {
+    height: 32px;
+    width: 130px;
+    font-size: 11px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,33 @@
+.login-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding: 80px 0;
+  flex-direction: column;
+}
+
+.form-field {
+  margin-bottom: 30px;
+}
+
+.forgot-redirect {
+  font-family: "Poppins-Light";
+  margin-top: 20px;
+}
+.css-50etie svg circle {
+  stroke: #212529 !important;
+}
+.css-50etie svg {
+  top: 250px !important;
+}
+.register-redirect {
+  font-family: "Poppins-Light";
+  margin-top: 40px;
+}
+
+.login-container .buttoncss {
+  height: 42px;
+  width: 180px;
+  size: 14px;
+}

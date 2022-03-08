@@ -1,0 +1,50 @@
+#subscriptionModal .modal-content .navTitle2 {
+  font-family: "Poppins-Bold";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  padding-top: 8px;
+  color: var(--blue);
+  margin: 8px 0;
+  width: 100%;
+  text-align: center;
+}
+#subscriptionModal .modal-content .close {
+  border-radius: 50%;
+  font-size: 18px;
+  padding: 4px 10px;
+  border: transparent;
+  cursor: pointer;
+}
+#subscriptionModal .buttoncss4 {
+  width: 130px;
+  height: 37px;
+  font-size: 14px;
+  position: relative;
+}
+#subscriptionModal .modal-content .navTitle2 span {
+  color: var(--red);
+}
+#subscriptionModal .modal-body .input-wrapper {
+  margin-right: 20px;
+}
+#subscriptionModal .modal-body .modallabel {
+  color: #094067;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Poppins-Light";
+  font-weight: bolder;
+  position: relative;
+}
+#subscriptionModal .modal-body .modalspan {
+  color: #dc3545;
+}
+#subscriptionModal .modal-body .modalP {
+  font-family: "Poppins-Light";
+  font-size: 13px;
+  color: #9a9a9a;
+  margin-bottom: 5px;
+}
+#subscriptionModal .modal-body.pad {
+  padding: 40px 90px;
+}

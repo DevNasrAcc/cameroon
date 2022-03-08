@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: local("Poppins-SemiBold"),
+    url(../../assets/fonts/Poppins-SemiBold.ttf) format("truetype");
+}
+
+.button {
+  font-family: "Poppins-SemiBold";
+  color: #fff;
+  border-radius: 44px;
+  outline: 0;
+  border: 0;
+}
+
+.regular-btn {
+  background-color: #ef4565;
+}
+
+.disabled {
+  background-color: #999999 !important;
+}

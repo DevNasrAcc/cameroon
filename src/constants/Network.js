@@ -1,0 +1,31 @@
+export const BASE_URL = process.env.REACT_APP_BASE_URL;
+export const API_URL_PREFIX = process.env.REACT_APP_API_URL_PREFIX;
+
+export const API_ENDPOINTS = {
+  signup: "auth/register",
+  signin: "auth/login",
+  forgotpassword: "auth/request-password-reset",
+  categories: "categories",
+  createProject: "project/create",
+  editProject: "project/edit",
+  deleteProject: "project/delete",
+  personalInfo: "user/update-personal-info",
+  additionalInfo: "user/update-additional-info",
+  signout: "auth/logout",
+  exploreProjects: "project/explore",
+  myProjects: "project/my-projects",
+  savedProjects: "project/saved-projects",
+  likedProjects: "project/liked-projects",
+  recommendedProjects: "project/recommended-projects",
+  projectDetail: "project/populate",
+  likeProject: "project/like-dislike",
+  saveProject: "project/save-unsave",
+  shareProject: "project/share",
+  userProfile: "user/retrieve-personal-info",
+  userAccountInfo: "user/retrieve-account-info",
+  updateSubscription: "user/update-subscription",
+  updateAccountStatus: "user/update-account-status",
+  projectEnums: "general/project-enums",
+  uploadProjectPhoto: "file/upload-project-photo",
+  uploadMultipleProjectPhoto: "file/upload-multiple-project-photo",
+};

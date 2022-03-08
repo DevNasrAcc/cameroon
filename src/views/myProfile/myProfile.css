@@ -1,0 +1,61 @@
+.myprofile .container .gray-rectangle {
+  background: #e5e5e5;
+  border-radius: 6px;
+}
+
+.myprofile .container h5 {
+  font-family: "Poppins-SemiBold";
+  font-size: 19px;
+  padding: 10px 120px;
+  color: #094067;
+}
+
+.myprofile .container .buttoncss2 {
+  text-decoration: none;
+  background: #094067;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Poppins-SemiBold";
+  padding: 10px 80px;
+  border-radius: 50px;
+}
+
+.myprofile .container .buttoncss3 {
+  text-decoration: none;
+  background: #fff;
+  color: #094067;
+  border: 1px solid;
+  font-size: 18px;
+  font-family: "Poppins-SemiBold";
+  padding: 10px 80px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+.myprofile .userdetails p {
+  font-family: "Poppins-SemiBold";
+  font-size: 18px;
+  color: #094067;
+}
+.myprofile .userdetails p span {
+  font-family: "Poppins-Light";
+  font-size: 16px;
+  color: #094067;
+}
+.myprofile .userdetails.padding {
+  padding: 20px 0;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .myprofile .container .buttoncss3 {
+    padding: 10px 20px;
+  }
+  .myprofile .container .buttoncss2 {
+    padding: 10px 20px;
+  }
+  .myprofile .userdetails.padding {
+    padding: 20px 0;
+  }
+}

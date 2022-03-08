@@ -1,0 +1,39 @@
+.default-label {
+  font-weight: normal;
+  font-size: 14px;
+  color: #6f6f6f;
+}
+
+.label-link {
+  font-weight: normal;
+  font-family: "Poppins-Light";
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #6f6f6f;
+  cursor: pointer;
+}
+
+.header-label {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #093b67;
+}
+
+.error {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 20px;
+  background: #ef4665;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.success {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 20px;
+  background: #19b576;
+  padding: 10px 0;
+  width: 100%;
+}

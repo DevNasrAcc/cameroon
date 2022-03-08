@@ -1,0 +1,11 @@
+# Ignore artifacts:
+.env.test
+.env.local
+build
+coverage
+yarn.lock
+*.svg
+.gitignore
+node_modules
+.prettierignore
+*.md

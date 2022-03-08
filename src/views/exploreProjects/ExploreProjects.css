@@ -1,0 +1,231 @@
+.explorePage h3 {
+  text-align: center;
+  margin-top: 50px;
+  color: #094067;
+  font-family: "Poppins-SemiBold";
+  position: relative;
+}
+.explorePage h3 span {
+  background: #e5e5e5;
+  width: 225px;
+  height: 18px;
+  display: block;
+  position: absolute;
+  top: 49%;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.explorePage .pagination {
+  justify-content: right;
+}
+.explorePage .page-item.active .page-link {
+  background-color: #094067;
+  border-color: #094067;
+}
+.explorePage .page-link {
+  color: #094067;
+}
+.text-end {
+  text-align: end;
+}
+.explorePage .labeltext {
+  color: #094067;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Poppins-Bold";
+  margin-right: 10px;
+}
+.explorePage .selectClass {
+  font-size: 14px;
+  margin-right: 20px;
+  border: 1px solid #094067;
+  border-radius: 19px;
+  width: 180px;
+  padding: 1px 3px;
+  color: #6f6f6f;
+}
+/*.explorePage .selectClass2 {*/
+/*  font-size: 11px;*/
+/*  margin-right: 0;*/
+/*  border: 1px solid #094067;*/
+/*  border-radius: 19px;*/
+/*  width: -webkit-fill-available;*/
+/*  padding: 5px 0px;*/
+/*  text-align: center;*/
+/*  color: #ef4565;*/
+/*  text-transform: uppercase;*/
+/*  font-family: "Poppins-SemiBold";*/
+/*}*/
+.mt-6 {
+  margin-top: 60px;
+}
+/*.explorePage .locIcon {*/
+/*  position: absolute;*/
+/*  left: 60px;*/
+/*  font-size: 18px;*/
+/*  bottom: 22px;*/
+/*  color: #adb5bd9c;*/
+/*}*/
+.explorePage .regular-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.explorePage {
+  padding: 60px 40px;
+}
+.explorePage .card-title {
+  color: #094067;
+  font-size: 18px;
+  font-family: "Poppins-Bold";
+}
+.explorePage .text_category {
+  font-size: 9px;
+  color: #9a9a9a;
+  font-family: "Poppins-SemiBold";
+  display: flex;
+  justify-content: space-between;
+}
+.explorePage .text_category i {
+  font-size: 12px;
+  margin-right: 6px;
+}
+.explorePage .card-text {
+  color: #094067;
+  font-size: 13px;
+  font-family: "Poppins-Light";
+  font-weight: 600;
+}
+.explorePage .card-text2 {
+  font-size: 13px;
+  font-family: "Poppins-SemiBold";
+  text-transform: uppercase;
+  color: #9a9a9a;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.p-80 {
+  padding: 80px 0px 0px 0px;
+}
+.explorePage .card {
+  margin-bottom: 20px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.explorePage .sidenav {
+  height: auto;
+  width: 80px;
+  text-align: center;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+  border: 1px solid rgba(173, 181, 189, 0.79);
+  border-radius: 10px;
+}
+
+.explorePage .sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #094067;
+  display: block;
+  transition: 0.3s;
+}
+
+.explorePage .sidenav a:hover {
+  color: #0b5183;
+}
+
+.explorePage .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.explorePage .openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.explorePage .sidenav .icon {
+  color: #ef4565;
+  padding: 13px 17px;
+  font-size: 22px;
+  cursor: pointer;
+  border: 3px solid #094067;
+  border-radius: 50%;
+}
+.explorePage .sidenav span {
+  position: absolute;
+  top: -70px;
+  left: 10px;
+}
+
+.explorePage .sidenav .hr_class {
+  margin: 10px 30px;
+}
+
+.mgt-90 {
+  margin-top: 90px !important;
+}
+
+.explorePage .openbtn:hover {
+  background-color: #444;
+}
+
+.explorePage #main {
+  transition: margin-left 0.5s;
+  padding: 12px;
+  width: 100%;
+}
+
+.explorePage #mySidebar {
+  width: 80px;
+}
+
+/* .explorePage .sidenav---sidenav---_2tBP{
+    background: #FFFFFF;
+    border: 1px solid #adb5bdc9;
+    border-radius: 10px;
+  } */
+
+/* .explorePage .sidenav---sidenav-nav---3tvij{
+      border: 1px solid #adb5bdc9;
+  } */
+
+/* .explorePage .sidenav---navtext---1AE_f{
+    color: #094067 !important;
+  }
+  .explorePage .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ- > .sidenav---navitem---9uL5T .sidenav---navicon---3gCRo > *, .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ- > .sidenav---navitem---9uL5T .sidenav---navtext---1AE_f > *{
+    color: #c4c4c4 !important;
+  }
+  .explorePage .sidenav---sidenav-toggle---1KRjR .sidenav---icon-bar---u1f02{
+      background-color: black;
+  } */
+
+@media only screen and (max-width: 768px) {
+  .explorePage .selectClass {
+    margin-right: 10px;
+    width: 100px;
+  }
+  .explorePage .text-end {
+    text-align: center;
+  }
+  .explorePage {
+    padding: 0;
+  }
+}

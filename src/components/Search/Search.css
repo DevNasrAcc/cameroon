@@ -1,0 +1,14 @@
+.button {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  width: 240px;
+  border-radius: 44px;
+  height: 48px;
+  outline: 0;
+  border: 0;
+}
+
+.regular-btn {
+  background-color: #ef4565;
+}

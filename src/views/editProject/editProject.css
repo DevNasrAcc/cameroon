@@ -1,0 +1,303 @@
+.editProject .container .gray-rectangle {
+  background: #e5e5e5;
+  border-radius: 6px;
+}
+
+.editProject .container h5 {
+  font-family: "Poppins-SemiBold";
+  font-size: 19px;
+  padding: 10px 120px;
+  color: #094067;
+}
+
+.editProject .container h6 {
+  font-family: "Poppins-SemiBold";
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #094067;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editProject .container .font-Poppins .p1 {
+  font-size: 14px;
+  color: #094067;
+  font-weight: bolder;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.editProject .container .font-Poppins hr {
+  height: 2px;
+  margin: 20px 100px;
+}
+.editProject .container .font-Poppins .input-fields {
+  position: relative;
+}
+
+.editProject .container .font-Poppins .input-fields .image {
+  position: absolute;
+  left: -30px;
+  height: 13px;
+  width: 13px;
+  top: 6px;
+}
+
+.editProject .container .font-Poppins .input-fields .editimage {
+  position: absolute;
+  right: -20px;
+  top: 0px;
+  height: 15px;
+  width: 15px;
+}
+
+.editProject .container .font-Poppins .input-fields label {
+  color: #094067;
+  font-size: 15px;
+  font-weight: 700;
+  font-weight: bolder;
+  position: relative;
+}
+.editProject .container .font-Poppins .input-fields span {
+  color: #dc3545;
+}
+.editProject .container .font-Poppins .input-fields p {
+  font-size: 13px;
+  color: #9a9a9a;
+  margin-bottom: 5px;
+}
+
+.editProject .container .font-Poppins .input-fields textarea {
+  background-color: #f5f5f5;
+  border: 1px solid #094067;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 8px 0;
+  padding: 7px 20px;
+  resize: none;
+  width: 30vw;
+  color: #094067;
+}
+.editProject .container .font-Poppins .input-fields .custom-file-upload {
+  border-radius: 45px;
+  border: 1px solid #ef4565;
+  display: inline-block;
+  width: 160px;
+  padding: 6px 12px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.editProject .container .font-Poppins .input-fields input[type="file"] {
+  display: none;
+}
+
+.editProject .container .font-Poppins .input-fields select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+.editProject .container .font-Poppins .p2 {
+  font-size: 13px;
+  color: #094067;
+}
+
+.editProject .container .font-Poppins .input-fields select {
+  background-color: #f5f5f5;
+  border: 1px solid #094067;
+  box-sizing: border-box;
+  border-radius: 36px;
+  font-weight: normal;
+  margin: 8px 0;
+  padding: 0 20px;
+  width: 30vw;
+  height: 40px;
+  font-size: 14px !important;
+  color: #094067;
+}
+
+.editProject .container .font-Poppins .input-fields .p-char {
+  width: 400px;
+  text-align: end;
+}
+
+.editProject .container .font-Poppins .input-fields .imageArrow {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+
+.pad40 {
+  padding: 0 40px;
+}
+
+.pad70 {
+  padding: 0 70px;
+}
+
+.main-image-container {
+  background: #e5e5e5;
+  width: 100%;
+  height: 350px;
+  position: relative;
+  border-bottom: 2px solid #ef4565;
+}
+
+.main-image-container .picture {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnails {
+  display: flex;
+  flex-flow: row wrap;
+  margin: -5px;
+}
+
+.thumbnails .item,
+.thumbnails .item .file-upload {
+  background: #e5e5e5;
+  width: 75px;
+  height: 120px;
+  flex: 1 1 20%;
+  margin: 5px;
+  position: relative;
+  border-bottom: 2px solid #ef4565;
+}
+
+.thumbnails .item input[type="file"] {
+  display: none;
+}
+
+.main-image-container .main-image-remove,
+.thumbnails .item .main-image-remove {
+  position: absolute;
+  background: #9a9a9a;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 1;
+  right: 0;
+}
+
+.main-image-container .main-image-remove img,
+.thumbnails .item .main-image-remove img {
+  width: 25px;
+}
+
+.thumbnails .item .picture {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnails .item .item-overlay {
+  position: absolute;
+  top: -85px;
+  width: 100%;
+}
+
+.main-image-container .add,
+.thumbnails .item .add {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main-image-container .add img,
+.thumbnails .item .add img {
+  width: 50px;
+}
+
+.font-Poppins {
+  font-family: "Poppins-Light", sans-serif;
+}
+
+.editProject .container h5 {
+  color: #094067;
+  font-family: "Poppins-Bold";
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.editProject .container .large {
+  width: 30vw;
+}
+
+.editProject .container .buttoncss2 {
+  width: 160px;
+  height: 37px;
+  font-size: 14px;
+}
+.editProject .container .font-Poppins .buttoncss3 {
+  width: 160px;
+  height: 37px;
+  font-size: 14px;
+  margin-left: 10px;
+  background: #fff;
+  border: 1px solid #ef4565;
+  color: #ef4565;
+}
+
+.imgDiv {
+  height: 300px;
+  width: 300px;
+}
+
+.imgDiv img {
+  height: 100%;
+  width: 100%;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.action-btns {
+  justify-content: center;
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .editProject .container .font-Poppins .input-fields textarea {
+    width: auto;
+  }
+  .editProject .container .font-Poppins .input-fields .p-char {
+    width: auto;
+  }
+  .editProject .container .font-Poppins .input-fields select {
+    font-size: 11px !important;
+    padding: 0 18px;
+    width: 230px;
+  }
+  .editProject .container .font-Poppins .input-fields textarea {
+    width: 230px;
+  }
+  .pad70 {
+    padding: 0 70px;
+  }
+  .editProject .container .font-Poppins .buttoncss3 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .editProject .container h6 {
+    padding: 10px 60px;
+    color: #094067;
+    text-align: center;
+  }
+  .editProject .container .large {
+    width: 230px;
+  }
+}

@@ -1,0 +1,127 @@
+.landingPage h3 {
+  text-align: center;
+  margin-top: 50px;
+  color: #094067;
+  font-family: "Poppins-SemiBold";
+  position: relative;
+}
+.landingPage h3 span {
+  background: #e5e5e5;
+  width: 225px;
+  height: 18px;
+  display: block;
+  position: absolute;
+  top: 49%;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.text-end {
+  text-align: end;
+}
+.landingPage .labeltext {
+  color: #094067;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Poppins-Bold";
+  margin-right: 10px;
+}
+.landingPage .selectClass {
+  font-size: 12px;
+  margin-right: 20px;
+  border: 1px solid #094067;
+  border-radius: 19px;
+  width: 170px;
+  padding: 5px 3px;
+  color: #6f6f6f;
+}
+/*.landingPage .selectClass2 {*/
+/*  font-size: 11px;*/
+/*  margin-right: 0;*/
+/*  border: 1px solid #094067;*/
+/*  border-radius: 19px;*/
+/*  width: -webkit-fill-available;*/
+/*  padding: 5px 0px;*/
+/*  text-align: center;*/
+/*  color: #ef4565;*/
+/*  text-transform: uppercase;*/
+/*  font-family: "Poppins-SemiBold";*/
+/*}*/
+.mt-6 {
+  margin-top: 60px;
+}
+/*.landingPage .locIcon {*/
+/*  position: absolute;*/
+/*  left: 60px;*/
+/*  font-size: 18px;*/
+/*  bottom: 22px;*/
+/*  color: #adb5bd9c;*/
+/*}*/
+.landingPage .regular-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.landingPage .carousal_padding {
+  padding: 60px 40px;
+}
+.landingPage .carousal_padding .card-title {
+  color: #094067;
+  font-size: 18px;
+  font-family: "Poppins-Bold";
+}
+.landingPage .carousal_padding .text_category {
+  font-size: 10px;
+  color: #9a9a9a;
+  font-family: "Poppins-SemiBold";
+  display: flex;
+  justify-content: space-between;
+}
+.landingPage .carousal_padding .text_category i {
+  font-size: 18px;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+.landingPage .carousal_padding .card-text {
+  color: #094067;
+  font-size: 13px;
+  font-family: "Poppins-Light";
+  font-weight: 600;
+}
+.landingPage .carousal_padding .card-text2 {
+  font-size: 13px;
+  font-family: "Poppins-SemiBold";
+  text-transform: uppercase;
+  color: #9a9a9a;
+}
+
+.landingPage .buttoncss {
+  height: 20px;
+  width: 48px;
+  font-size: 9px;
+  text-align: center;
+  padding-top: 4px;
+}
+.landingPage .carousal_padding .card {
+  width: 22rem;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 768px) {
+  .landingPage .text-end {
+    text-align: center !important;
+  }
+  .landingPage .selectClass {
+    width: -webkit-fill-available;
+    margin: 0;
+  }
+  .landingPage .carousal_padding {
+    padding: 60px 0px;
+  }
+  .landingPage .carousal_padding .card {
+    width: auto;
+  }
+}
